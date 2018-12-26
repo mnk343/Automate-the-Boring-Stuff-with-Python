@@ -1,0 +1,77 @@
+CH3:
+	there is an end keyword in print to change the end parameter form the
+	default newline character!!
+
+
+
+CH4:
+	list 
+
+	for the sort attribute
+
+	we have these two parameters:
+
+	1) reverse
+	set a.sort(reverse=True) to sort the array in reverse order
+
+	2) key
+	set a.sort(key=str.lower) to sort after changing everything in lower caase
+	if not write this then sort ASCIIbetically. like 'Z' comes before 'a'
+
+	copy module
+
+	if we want to pass a list in a function and dont want its value to be changed , then we should use copy
+
+	import copy
+	a=[1,2,2]
+
+	b=copy.copy(a)
+
+	if the list contains inner lists use deepcopy() method instead
+
+ch 5 : 
+	dictionary
+
+	unlike lists, the elements are unordered.
+	and since they are unordered they cant be sliced.
+
+	methods :
+
+	keys()
+	values()
+	items()
+
+	items return a tuple
+
+	instead of writing
+
+	names in a.keys() you can write 
+	names in a
+	where a is a dictionary
+
+	get() method : takes two arguments: first is the key and the second is the fallback value if we are unable to find the value
+
+	setdefault() method: two arguments again: first the key and second the value to be assigned if the key does not exist
+
+
+	pretty printing of a dictionary : 
+		import pprint
+		pprint.pprint()
+		pprint.pformat()
+
+		outputs the dictionary in a nice format and in sorted order !
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+

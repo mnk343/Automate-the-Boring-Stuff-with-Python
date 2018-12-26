@@ -1,0 +1,23 @@
+list 
+
+for the sort attribute
+
+we have these two parameters:
+
+1) reverse
+set a.sort(reverse=True) to sort the array in reverse order
+
+2) key
+set a.sort(key=str.lower) to sort after changing everything in lower caase
+if not write this then sort ASCIIbetically. like 'Z' comes before 'a'
+
+copy module
+
+if we want to pass a list in a function and dont want its value to be changed , then we should use copy
+
+import copy
+a=[1,2,2]
+
+b=copy.copy(a)
+
+if the list contains inner lists use deepcopy() method instead
